@@ -1,0 +1,36 @@
+
+
+#calculadora{
+    width: 300px;
+    height: 430px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid dimgray;
+}
+
+#pantalla{
+    margin: 10px auto;
+    background: gainsboro;
+    border: 0;
+    border-radius: 4px;
+    width: 270px;
+    height: 70px;
+}
+
+.tecla{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 2px;
+    border: 0px;
+}
+
+#igual{
+    width: 125px;
+    height: 60px;
+}
+
+#borrar{
+   background-color: red;
+}
