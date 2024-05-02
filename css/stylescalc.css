@@ -9,13 +9,19 @@
     border:1px solid dimgray;
 }
 
-#pantalla{
+.pantalla{
     margin: 10px auto;
     background: gainsboro;
-    border: 0;
     border-radius: 4px;
     width: 270px;
     height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-right: 8px;
+    
 }
 
 .tecla{
@@ -24,6 +30,11 @@
     border-radius: 20px;
     margin: 2px;
     border: 0px;
+    font-size: 17px;
+    
+}
+.tecla:nth-child(1) {
+    color: rgb(0, 136, 255); /* Color específico para el primer hijo */
 }
 
 #igual{
@@ -34,3 +45,4 @@
 #borrar{
    background-color: red;
 }
+
